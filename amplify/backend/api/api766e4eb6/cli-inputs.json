@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/customers/{customerId}": {
+      "name": "/customers/{customerId}",
+      "lambdaFunction": "CustomerHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/users/{userId}": {
+      "name": "/users/{userId}",
+      "lambdaFunction": "usersHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -41,14 +41,6 @@
 
 ### `amplify init`
 
-## Install Amplify libraries
-
-### `npm install aws-amplify @aws-amplify/ui-react@1.x.x`
-
-## Set up frontend
-
-
-
 ## Create a GraphQL API and database
 
 ### `amplify add api`
@@ -56,6 +48,8 @@
 ### `amplify push`
 
 ### `amplify status`
+
+### REST API endpoint: https://wiiovm5axc.execute-api.us-east-1.amazonaws.com/dev
 
 To view the GraphQL API in the AppSync console at any time, run the following command:
 
@@ -68,6 +62,16 @@ To view your entire app in the Amplify console at any time, run the following co
 To test this out locally, you can run the mock command.
 
 ### `amplify mock api`
+
+## Install Amplify libraries
+
+### `npm install aws-amplify @aws-amplify/ui-react@1.x.x`
+
+## Set up frontend
+
+
+
+
 
 ## Connect frontend to API
 
