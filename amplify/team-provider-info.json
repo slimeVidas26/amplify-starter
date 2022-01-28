@@ -15,11 +15,11 @@
       "function": {
         "CustomerHandler": {
           "deploymentBucketName": "amplify-amplifystarter-dev-183423-deployment",
-          "s3Key": "amplify-builds/CustomerHandler-33653577385573365656-build.zip"
+          "s3Key": "amplify-builds/CustomerHandler-776b6f66454379386e59-build.zip"
         },
         "usersHandler": {
           "deploymentBucketName": "amplify-amplifystarter-dev-183423-deployment",
-          "s3Key": "amplify-builds/usersHandler-76795733767558485472-build.zip"
+          "s3Key": "amplify-builds/usersHandler-6967517478656b616236-build.zip"
         }
       }
     }

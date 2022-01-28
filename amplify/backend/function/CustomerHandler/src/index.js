@@ -1,7 +1,9 @@
 
 
 exports.handler = async (event) => {
-    console.log(event)
+    await console.log(event)
+    const customerId = event.pathParameters.customerId
+    const customer = {'customerId': customerId , 'customerName' : 'customer'+customerId}
 
     // TODO implement
     const response = {
@@ -11,7 +13,7 @@ exports.handler = async (event) => {
          "Access-Control-Allow-Origin": "*",
          "Access-Control-Allow-Headers": "*"
      }, 
-        body: JSON.stringify('Hello from Lambda Customers!'),
+        body: JSON.stringify(customer),
     };
     return response;
 };
